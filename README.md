@@ -1,13 +1,8 @@
-#<project name>
-
-
 ## Introduction
 
-This is a project.It does stuf..
+This is a collection of code/functions/templates/methodologies I've put together over 20 years of coding.
 
-## Assumptions 
+* Error handling/tracing
+* Help
+* Robust CLI argument handling
 
-
-## Requirements
-
-## Depdendencies

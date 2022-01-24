@@ -1,6 +1,8 @@
 function StrictMode()
 {
 
+# Standard strict mode and error handling boilderplate..
+
 # This is a function I include and execute in every shell script that I write. 
 # It sets up a bunch of error handling odds and ends
 
@@ -26,5 +28,11 @@ set -o nounset
 #in e.g. mysqldump |gzip. 
 #The exit status of the last command that threw a non-zero exit code is returned
 set -o pipefail
+
+#Function tracing...
+set -o functrace
+
+
+export PS4='(${BASH_SOURCE}:${LINENO}): - [${SHLVL},${BASH_SUBSHELL},$?] $ '
 
 }
