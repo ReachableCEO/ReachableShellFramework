@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function LocalHelp()
 {
     echo "$0 is <description here>"
